@@ -1,0 +1,41 @@
+﻿position,failed_job_id,project,job,auto_category,model_category,model_note
+1,15741306198,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+2,15889106726,gitlab-org/gitlab-vscode-extension,test-integration,невизначено,невизначено,помилка виконання процесу (execa) без опису причини
+3,15741306194,gitlab-org/gitlab-vscode-extension,test-e2e-windows,твердження,невизначено,wdio: Timeout в e2e-перевірці
+4,16698372725,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+5,16571130524,gitlab-org/editor-extensions/gitlab-lsp,integration-test-sandbox-macos,невизначено,середовище,"git: RPC failed, HTTP 502 під час fetch (виконавець macOS)"
+6,17397119699,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,невизначено,тайм-аут сценарію (120 с): очікування відповіді або сесії
+7,17295377607,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,твердження,невизначено,"помилка конфігурації збірки образу (mise: option exe), не твердження перевірки"
+8,16464831276,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+9,17172022169,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,середовище,твердження,Test suite failed to run: TypeError (dispose); «Connection reset by peer» у журналі не є причиною збою
+10,17481213551,gitlab-org/editor-extensions/gitlab-lsp,build-integration-binaries,невизначено,середовище,"збій отримання токена для підпису (service account impersonation, PKCS11)"
+11,16683697685,gitlab-org/editor-extensions/gitlab-lsp,build-integration-binaries,невизначено,середовище,git: unpack-objects failed
+12,15889106731,gitlab-org/gitlab-vscode-extension,test-browser-build,невизначено,невизначено,помилка виконання процесу (execa) без опису причини
+13,15898642006,gitlab-org/gitlab-vscode-extension,test-e2e-windows,середовище,середовище,npm ECONNRESET під час встановлення залежностей
+14,16371525549,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,середовище,середовище,HTTP 500/504 під час завантаження ripgrep з github.com
+15,17225204595,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,твердження,assertion у did_change_watched_files.test.ts
+16,16281816370,gitlab-org/gitlab-vscode-extension,test-e2e-chat,твердження,невизначено,wdio: Timeout в e2e-перевірці
+17,17357773258,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+18,16572083020,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,середовище,твердження,Test suite failed to run: TypeError (dispose); «Connection reset by peer» у журналі не є причиною збою
+19,15818676685,gitlab-org/gitlab-services/design.gitlab.com,lint_and_test,невизначено,невизначено,помилка збірки: cp не знайшов файл
+20,16812216402,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,середовище,середовище,HTTP 500 під час завантаження ripgrep з github.com
+21,16828209458,gitlab-org/editor-extensions/gitlab-lsp,typescript-compile-integration,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+22,17594993584,gitlab-org/gitlab-vscode-extension,test-e2e-chat,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+23,16683697673,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+24,16836917949,gitlab-org/gitlab-services/design.gitlab.com,ui:build_test_storybook_vue3,невизначено,невизначено,помилка збірки: відсутній модуль tokens.cjs
+25,16335027861,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+26,16946860362,gitlab-org/gitlab-services/design.gitlab.com,ui:unit_tests_vue3,твердження,твердження,expect(received).toContain(expected)
+27,17325912674,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+28,16824510793,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-production-test,невизначено,середовище,400 «failed to connect to all addresses» від сервісу (з'єднання)
+29,16948581385,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,Matcher error: received value undefined; причина (помилка продукту чи неготовність результату) з журналу не видна
+30,17181670049,gitlab-org/editor-extensions/gitlab-lsp,integration-test-sandbox-macos,середовище,середовище,збій виконавця macOS: remote command exited without exit status
+31,16861843468,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+32,16343013282,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,bun test: (fail) у e2e-перевірці CLI
+33,17298547337,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,твердження,невизначено,"помилка конфігурації збірки образу (mise: option exe), не твердження перевірки"
+34,15866830649,gitlab-org/gitlab-vscode-extension,test-browser-build,середовище,середовище,prebuild-install: socket hang up під час завантаження готового модуля; збірка з джерел далі не вдалася (немає libsecret)
+35,17270185757,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,твердження,твердження,Jest: 1 перевірка не пройшла (unit)
+36,16845228950,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+37,16345007817,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,bun test: (fail) у e2e-перевірці CLI
+38,16348651574,gitlab-org/editor-extensions/gitlab-lsp,typescript-compile-integration,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+39,16717949280,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,невизначено,невизначено,Matcher error: received value undefined; причина (помилка продукту чи неготовність результату) з журналу не видна
+40,16948093270,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,твердження,"24 перевірки не пройшли: TypeError (path undefined), Worker exited before ready"

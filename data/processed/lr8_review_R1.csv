@@ -1,0 +1,41 @@
+reviewer,position,category,note
+R1,1,невизначено,Timeout of 60000ms exceeded у before all hook
+R1,2,невизначено,Помилка компіляції TypeScript (TS2339)
+R1,3,невизначено,Тайм-аут очікування команди в Command palette та тесту
+R1,4,невизначено,Повідомлення GC allocation failure без явного OOM або опису збою
+R1,5,середовище,HTTP 502 під час git fetch
+R1,6,невизначено,FAILED сценарій без опису конкретної причини в уривку
+R1,7,невизначено,Помилка збірки Docker-образу (mise конфігурація)
+R1,8,невизначено,Тайм-аут очікування патерну терміналу (30000ms)
+R1,9,середовище,Connection reset by peer під час git clone
+R1,10,невизначено,Помилка отримання токена / ініціалізації PKCS11 під час підпису
+R1,11,невизначено,fatal: unpack-objects failed (exit code 128) без деталей
+R1,12,невизначено,Помилка компіляції TypeScript (TS2339)
+R1,13,середовище,Мережева помилка npm ERR! code ECONNRESET
+R1,14,середовище,HTTP 500 при завантаженні зовнішнього ресурсу (ripgrep)
+R1,15,твердження,Непройдений assert у тесті DidChangeWatchedFiles
+R1,16,невизначено,Error: Timeout у before all hook
+R1,17,невизначено,"Відсутній утиліт ps та токен API, причина падіння джоби не видна однозначно"
+R1,18,середовище,Connection reset by peer під час git clone
+R1,19,невизначено,Помилка збірки Makefile (відсутній файл для копіювання)
+R1,20,середовище,HTTP 500 при завантаженні зовнішнього ресурсу (ripgrep)
+R1,21,середовище,HTTP 500 при завантаженні electron у postinstall
+R1,22,невизначено,Timeout of 60000ms exceeded у before all hook
+R1,23,невизначено,Повідомлення GC allocation failure без явного OOM або опису збою
+R1,24,невизначено,Помилка збірки (Cannot find module у Makefile)
+R1,25,середовище,Network issue: Error code 23 / operation timed out при зверненні до API
+R1,26,твердження,Помилка перевірки expect(received).toContain у Jest
+R1,27,невизначено,"Відсутній ps та токен API, причина завершення не видна однозначно"
+R1,28,середовище,Помилка мережевого з'єднання (failed to connect to all addresses / UNAVAILABLE)
+R1,29,невизначено,"Відсутній ps та помилка отримання деталей з'єднання, причина не видна однозначно"
+R1,30,середовище,Збій раннера/виконавця (remote command exited without exit status)
+R1,31,твердження,TypeError: TEXT_ENCODINGS.union is not a function під час запуску
+R1,32,невизначено,"У фрагменті лише debug-логи очікування статусу, причина збою не видна"
+R1,33,невизначено,Помилка збірки Docker-образу (mise конфігурація)
+R1,34,невизначено,Помилка збірки node-gyp (відсутній пакет libsecret-1)
+R1,35,твердження,Непройдена перевірка expect(clearTimeoutSpy).toHaveBeenCalled()
+R1,36,твердження,TypeError: TEXT_ENCODINGS.union is not a function під час запуску
+R1,37,невизначено,"У фрагменті лише debug-логи очікування статусу, причина збою не видна"
+R1,38,середовище,HTTP 504 Gateway Time-out при завантаженні electron
+R1,39,невизначено,"Відсутній ps та токен API, причина завершення не видна однозначно"
+R1,40,невизначено,TypeError: Received undefined та Worker exited before ready

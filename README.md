@@ -11,17 +11,34 @@ gitlab.com (gitlab-web-ide, gitlab-vscode-extension, design.gitlab.com, gitlab-l
 - `scripts/` — `collect.py` (збір конвеєрів, спроб завдань, злитих MR через API), `classify.py` (повторені й перемежовані збої,
   категорії, зв'язок з MR, групування в часі), `lr7_dataset.py` (очищення, набір даних), `analyze.py` (описова статистика,
   критерії Фішера й Манна–Вітні, поправка Холма, перевірки стійкості), `lr7_figures.py` (рисунки), `lr8_extra.py` (додаткові
-  розрахунки для обговорення), `lr7_collect.sh`, `lr7_classify.sh` (послідовні запуски).
+  розрахунки для обговорення), `lr7_collect.sh`, `lr7_classify.sh` (послідовні запуски), `lr8_review_kit.py` (вибірка й форма сліпої
+  повторної розмітки), `lr8_review_analyze.py` (збіг, κ Коена, розбіжності).
 - `data/raw.zip` — сирі дані: `raw/<проєкт>.jsonl` (одна спроба завдання на рядок), `raw/mr/<проєкт>.jsonl` (злиті MR).
 - `data/processed/` — `<проєкт>_failures.csv` і `<проєкт>_summary.json` (результат `classify.py`), `lr7_dataset.csv`
   (859 повторених збоїв з остаточною категорією), `manual_review_lr7.csv` (192 ручні рішення з примітками),
-  `lr7_results.json`, `lr7_analysis_manual.txt`, `lr8_extra.txt`.
+  `lr7_results.json`, `lr7_analysis_manual.txt`, `lr8_extra.txt`; `lr8_review_key.csv`, `lr8_review_R1.csv`, `lr8_review_AI.csv` (сліпа повторна
+  розмітка, див. нижче).
+- `review/` — `Сліпа_перевірка.html` (офлайн-форма для рецензента) і `ІНСТРУКЦІЯ.md`.
 - `checksums.txt` — SHA-256 усіх файлів пакета.
 
 ## Відтворення без мережі (таблиці й рисунки)
 1. `python -X utf8 scripts/analyze.py > data/processed/lr7_analysis_manual.txt` — таблиці 4–7 ЛР_7, H1–H3, перевірки V0–V9.
 2. `python -X utf8 scripts/lr8_extra.py > data/processed/lr8_extra.txt` — розрахунки розділу 2 і табл. 3 ЛР_8.
 3. `python -X utf8 scripts/lr7_figures.py` — рисунки 1–3 ЛР_7 у `labs/ЛР_7/img/`.
+
+## Сліпа повторна розмітка (ЛР_8, тези)
+Розмітку 192 випадків (`manual_review_lr7.csv`) виконала мовна модель Claude Sonnet 5.5 за фрагментами журналів, тому вона не
+незалежна. Для перевірки з 192 випадків узято 40 (15 «середовище», 15 «невизначено», 10 «твердження» за розміткою моделі, не
+більше 2 з однаковою приміткою; випадковість відтворювана, SEED у `lr8_review_kit.py`). Рецензент бачив лише фрагмент журналу,
+проєкт і назву завдання; категорії розмітки й автоматичних правил та результат повтору були приховані.
+- `data/processed/lr8_review_key.csv` — ключ: позиція у формі, випадок, автоматична категорія, категорія моделі, примітка моделі.
+- `data/processed/lr8_review_R1.csv` — розмітка рецензента-людини (R1).
+- `data/processed/lr8_review_AI.csv` — розмітка сліпого субагента Claude Opus 5.5 (запущений без доступу до ключа й інших файлів проєкту).
+- Аналіз: `python -X utf8 scripts/lr8_review_analyze.py data/processed/lr8_review_R1.csv data/processed/lr8_review_AI.csv`
+  (збіг з розміткою моделі й автоматичними правилами, κ Коена, матриця розбіжностей, збіг між рецензентами);
+  `python -X utf8 scripts/lr8_review_analyze.py --self-test` перевіряє формули.
+- `lr8_review_kit.py` пере-створює форму з журналів завдань (`data/logs/`), яких у пакеті немає, тому форму й ключ збережено готовими.
+  Вибірка стратифікована, тому частки відносяться до цих 40 випадків, а не до всіх 192.
 
 ## Повна повторна обробка з сирих даних (потрібна мережа)
 1. Розпакувати `data/raw.zip` у `data/` (з'являться `data/raw/*.jsonl` і `data/raw/mr/*.jsonl`).
