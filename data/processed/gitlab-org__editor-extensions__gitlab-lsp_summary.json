@@ -1,0 +1,16 @@
+{
+ "project": "gitlab-org/editor-extensions/gitlab-lsp",
+ "pipelines": 9962,
+ "attempts": 149870,
+ "test_attempts": 57397,
+ "test_failed": 1759,
+ "failed_pairs": 1570,
+ "repeated": 382,
+ "intermittent": 272,
+ "attempts_by_ref_kind": {
+  "результат злиття": 38621,
+  "гілка": 8499,
+  "черга злиття": 10277
+ },
+ "logs": true
+}

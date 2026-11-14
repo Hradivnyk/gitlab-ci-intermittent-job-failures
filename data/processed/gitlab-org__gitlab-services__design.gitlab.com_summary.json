@@ -1,0 +1,16 @@
+{
+ "project": "gitlab-org/gitlab-services/design.gitlab.com",
+ "pipelines": 4419,
+ "attempts": 72749,
+ "test_attempts": 16550,
+ "test_failed": 212,
+ "failed_pairs": 210,
+ "repeated": 12,
+ "intermittent": 10,
+ "attempts_by_ref_kind": {
+  "результат злиття": 9622,
+  "гілка": 4006,
+  "черга злиття": 2922
+ },
+ "logs": true
+}

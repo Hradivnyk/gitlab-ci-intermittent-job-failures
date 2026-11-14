@@ -1,0 +1,16 @@
+{
+ "project": "gitlab-org/gitlab-vscode-extension",
+ "pipelines": 1687,
+ "attempts": 20645,
+ "test_attempts": 9151,
+ "test_failed": 4392,
+ "failed_pairs": 2802,
+ "repeated": 465,
+ "intermittent": 1,
+ "attempts_by_ref_kind": {
+  "результат злиття": 4925,
+  "гілка": 2884,
+  "черга злиття": 1342
+ },
+ "logs": true
+}

@@ -1,0 +1,193 @@
+﻿failed_job_id,project,job,auto_category,manual_category,note
+16641558815,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,середовище,середовище,502 від сервісу під час очікування служб виконавця
+16572083020,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,середовище,твердження,Test suite failed to run: TypeError (dispose); «Connection reset by peer» у журналі не є причиною збою
+17172022169,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,середовище,твердження,Test suite failed to run: TypeError (dispose); «Connection reset by peer» у журналі не є причиною збою
+17174593897,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,середовище,твердження,Test suite failed to run: TypeError (dispose); «Connection reset by peer» у журналі не є причиною збою
+17176641285,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,середовище,середовище,обрив з'єднання під час завантаження mise у збірці образу
+17352275110,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,середовище,середовище,обрив з'єднання під час завантаження mise у збірці образу
+17494657504,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,середовище,середовище,обрив з'єднання під час завантаження mise у збірці образу
+16371525549,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,середовище,середовище,HTTP 500/504 під час завантаження ripgrep з github.com
+16488739750,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,середовище,середовище,HTTP 500/504 під час завантаження ripgrep з github.com
+16488739755,gitlab-org/editor-extensions/gitlab-lsp,ui-test-unified-webview,середовище,середовище,HTTP 504 під час завантаження bun з github.com
+16812216402,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,середовище,середовище,HTTP 500 під час завантаження ripgrep з github.com
+16672738044,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16683697673,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16689992837,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16695832732,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16696434281,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16698372725,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16699680439,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16704242047,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16712127889,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16720168151,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+16847830303,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,середовище,середовище,вичерпання пам'яті процесу Jest (SIGABRT) після пройдених перевірок; витік у перевірці чи ліміт виконавця з журналу не видно
+17045604414,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-production-test,середовище,середовище,429 (ліміт запитів) від зовнішнього сервісу в e2e-перевірці
+16828209458,gitlab-org/editor-extensions/gitlab-lsp,typescript-compile-integration,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+17173786799,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-production-test,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+16348651574,gitlab-org/editor-extensions/gitlab-lsp,typescript-compile-integration,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+16348651596,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+16488739747,gitlab-org/editor-extensions/gitlab-lsp,cli-tests,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+16488739757,gitlab-org/editor-extensions/gitlab-lsp,build-integration-binaries-unsigned,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+16488739761,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+16488739763,gitlab-org/editor-extensions/gitlab-lsp,integration-persistent-storage,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+16488739764,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+16630947985,gitlab-org/editor-extensions/gitlab-lsp,integration-test-git,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+17112582598,gitlab-org/editor-extensions/gitlab-lsp,typescript-compile-integration,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+17112582612,gitlab-org/editor-extensions/gitlab-lsp,ui-test-unified-webview,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+17479645140,gitlab-org/editor-extensions/gitlab-lsp,build-integration-binaries-unsigned,середовище,середовище,HTTP 500/504 під час завантаження бінарних файлів electron (postinstall)
+17181670049,gitlab-org/editor-extensions/gitlab-lsp,integration-test-sandbox-macos,середовище,середовище,збій виконавця macOS: remote command exited without exit status
+16812217855,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,середовище,твердження,Test suite failed to run: TypeError (dispose); «unexpected disconnect» у журналі не є причиною збою
+17150925723,gitlab-org/editor-extensions/gitlab-lsp,cli-tests,середовище,середовище,обрив git fetch (unexpected disconnect while reading sideband packet)
+16351258022,gitlab-org/gitlab-services/design.gitlab.com,ui:unit_tests_vue2,середовище,середовище,ENOSPC: на диску виконавця немає місця
+17164962197,gitlab-org/gitlab-services/design.gitlab.com,ui:integration_tests_vue3: [cy:edge],середовище,середовище,git: HTTP/2 stream reset by server
+15799104535,gitlab-org/gitlab-vscode-extension,test-e2e-windows,середовище,середовище,npm ECONNRESET під час встановлення залежностей
+15898642006,gitlab-org/gitlab-vscode-extension,test-e2e-windows,середовище,середовище,npm ECONNRESET під час встановлення залежностей
+15907576579,gitlab-org/gitlab-vscode-extension,test-e2e-windows,середовище,середовище,npm ECONNRESET під час встановлення залежностей
+16022102481,gitlab-org/gitlab-vscode-extension,test-e2e-windows,середовище,середовище,npm ECONNRESET під час встановлення залежностей
+17391303153,gitlab-org/gitlab-vscode-extension,test-e2e-windows,середовище,середовище,npm ECONNRESET під час встановлення залежностей
+17605782584,gitlab-org/gitlab-vscode-extension,test-e2e-windows,середовище,середовище,npm ECONNRESET під час встановлення залежностей
+15866830649,gitlab-org/gitlab-vscode-extension,test-browser-build,середовище,середовище,prebuild-install: socket hang up під час завантаження готового модуля; збірка з джерел далі не вдалася (немає libsecret)
+17161585099,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,невизначено,тайм-аут сценарію (120 с): очікування відповіді Duo
+17295377607,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,твердження,невизначено,"помилка конфігурації збірки образу (mise: option exe), не твердження перевірки"
+17298547337,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,твердження,невизначено,"помилка конфігурації збірки образу (mise: option exe), не твердження перевірки"
+17364404210,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,середовище,"429 від GitLab: журнал прямо вказує, що причина не в сценарії (ліміт запитів на користувача)"
+17397119699,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,невизначено,тайм-аут сценарію (120 с): очікування відповіді або сесії
+17477131728,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,невизначено,тайм-аут сценарію (120 с): очікування відповіді або сесії
+17497434339,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,невизначено,тайм-аут сценарію (120 с): очікування відповіді або сесії
+17514908360,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,невизначено,тайм-аут сценарію (120 с): очікування відповіді або сесії
+17515618241,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,невизначено,тайм-аут сценарію (120 с): очікування відповіді або сесії
+17548995210,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,невизначено,тайм-аут сценарію (120 с): очікування відповіді або сесії
+16346150058,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,твердження,(fail) перевірки CLI: помилка «--import-session cannot be combined with --existing-session-id»
+16346625825,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,твердження,(fail) перевірки CLI: помилка «--import-session cannot be combined with --existing-session-id»
+17370325089,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,твердження,(fail) expect(...) Received/Expected у e2e-перевірках інфраструктури сценаріїв
+17046154747,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,твердження,твердження,(fail) expect(...) Received/Expected у e2e-перевірках інфраструктури сценаріїв
+16496567820,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+16702170323,gitlab-org/editor-extensions/gitlab-lsp,integration-persistent-storage,твердження,твердження,"процес-нащадок завершився з кодом 1 (ENOENT storage.json), перевірка багатопроцесного блокування не пройшла"
+16839239547,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+16849107426,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+16948093270,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,твердження,"24 перевірки не пройшли: TypeError (path undefined), Worker exited before ready"
+17201095615,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,твердження,твердження,Jest: 1 перевірка не пройшла (unit)
+17225204595,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,твердження,assertion у did_change_watched_files.test.ts
+17231136639,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,твердження,твердження,Jest: 1 перевірка не пройшла (unit)
+17270185757,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,твердження,твердження,Jest: 1 перевірка не пройшла (unit)
+17300415575,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+17325912674,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+17357773258,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+17370290496,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+17424368118,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+17424505754,gitlab-org/editor-extensions/gitlab-lsp,unit-tests,твердження,твердження,Jest: 1 перевірка не пройшла (unit)
+17481286672,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+17486431879,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,твердження,Jest: 4 перевірки не пройшли (причина в кінці журналу не видна)
+17590199429,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,твердження,невизначено,очікування виводу процесу не завершилося за 60000 мс (тайм-аут)
+17552178741,gitlab-org/gitlab-services/design.gitlab.com,ui:integration_tests_vue3: [cy:run],твердження,твердження,Cypress AssertionError: елемент [role=tooltip] не знайдено
+16946860362,gitlab-org/gitlab-services/design.gitlab.com,ui:unit_tests_vue3,твердження,твердження,expect(received).toContain(expected)
+16281816370,gitlab-org/gitlab-vscode-extension,test-e2e-chat,твердження,невизначено,wdio: Timeout в e2e-перевірці
+17624920171,gitlab-org/gitlab-vscode-extension,test-e2e-chat,твердження,невизначено,wdio: Timeout в e2e-перевірці
+15738923717,gitlab-org/gitlab-vscode-extension,test-e2e-windows,твердження,невизначено,wdio: Timeout в e2e-перевірці
+15741306194,gitlab-org/gitlab-vscode-extension,test-e2e-windows,твердження,невизначено,wdio: Timeout в e2e-перевірці
+17059440361,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,невизначено,поле failure_reason (no_updates_running / server_timeout_running); журнал не запитувався
+17507742633,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,невизначено,невизначено,поле failure_reason (no_updates_running / server_timeout_running); журнал не запитувався
+16451067701,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,Exceeded timeout (Jest): тайм-аут перевірки
+16451929140,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,Exceeded timeout (Jest): тайм-аут перевірки
+17325599251,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,невизначено,невизначено,Exceeded timeout (Jest): тайм-аут перевірки
+17364403498,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,Exceeded timeout (Jest): тайм-аут перевірки
+17364404052,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,Exceeded timeout (Jest): тайм-аут перевірки
+17364404930,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,Exceeded timeout (Jest): тайм-аут перевірки
+17594699197,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,Exceeded timeout (Jest): тайм-аут перевірки
+16496124640,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,Matcher error: received value undefined; причина (помилка продукту чи неготовність результату) з журналу не видна
+16717949280,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,невизначено,невизначено,Matcher error: received value undefined; причина (помилка продукту чи неготовність результату) з журналу не видна
+16724962462,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,невизначено,невизначено,Matcher error: received value undefined; причина (помилка продукту чи неготовність результату) з журналу не видна
+16948581385,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,Matcher error: received value undefined; причина (помилка продукту чи неготовність результату) з журналу не видна
+17076788410,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,невизначено,невизначено,Matcher error: received value undefined; причина (помилка продукту чи неготовність результату) з журналу не видна
+17420298939,gitlab-org/editor-extensions/gitlab-lsp,integration-test-binaries-linux,невизначено,невизначено,Matcher error: received value undefined; причина (помилка продукту чи неготовність результату) з журналу не видна
+17294238317,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,невизначено,"«1 fail, 1 error» без опису причини в кінці журналу"
+16223805170,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-production-test,невизначено,невизначено,"очікувано «finished», отримано «failed»: статус робочого процесу зовнішнього сервісу, причина не видна"
+16981973854,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-production-test,невизначено,невизначено,"очікувано «finished», отримано «failed»: статус робочого процесу зовнішнього сервісу, причина не видна"
+16246068251,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+16335027861,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+16343013282,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,bun test: (fail) у e2e-перевірці CLI
+16345007817,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,bun test: (fail) у e2e-перевірці CLI
+16355702996,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+16357450232,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,bun test: (fail) у e2e-перевірці CLI
+16389135191,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+16399189143,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+16400875949,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,невизначено,"«0 fail, 1 error»: помилка поза перевіркою"
+16419092356,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+16464831276,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+16511610353,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+16571126420,gitlab-org/editor-extensions/gitlab-lsp,integration-test-sandbox-macos,невизначено,середовище,"git: RPC failed, HTTP 502 під час fetch (виконавець macOS)"
+16571130524,gitlab-org/editor-extensions/gitlab-lsp,integration-test-sandbox-macos,невизначено,середовище,"git: RPC failed, HTTP 502 під час fetch (виконавець macOS)"
+16622115118,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+16622115121,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+16644148851,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+16668919116,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+16683697685,gitlab-org/editor-extensions/gitlab-lsp,build-integration-binaries,невизначено,середовище,git: unpack-objects failed
+16694458549,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+16695832750,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,невизначено,невизначено,«Tests fails» без опису причини
+16738614533,gitlab-org/editor-extensions/gitlab-lsp,cli-e2e-test,невизначено,твердження,"bun test: (fail), помилка CLI «--import-session cannot be combined with --existing-session-id»"
+16769788599,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+16824510793,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-production-test,невизначено,середовище,400 «failed to connect to all addresses» від сервісу (з'єднання)
+16839239538,gitlab-org/editor-extensions/gitlab-lsp,cli-network-e2e,невизначено,середовище,git: unpack-objects failed
+16911664010,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,невизначено,середовище,git: remote did not send all necessary objects
+17096969426,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,невизначено,невизначено,«Tests fails» без опису причини
+17186477791,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+17481213551,gitlab-org/editor-extensions/gitlab-lsp,build-integration-binaries,невизначено,середовище,"збій отримання токена для підпису (service account impersonation, PKCS11)"
+17517277665,gitlab-org/editor-extensions/gitlab-lsp,integration-test-vs-code-node-bundle,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+17579855505,gitlab-org/editor-extensions/gitlab-lsp,cli-headless-e2e-build-image,невизначено,невизначено,образ не знайдено в реєстрі (not found): конфігурація збірки
+17604824707,gitlab-org/editor-extensions/gitlab-lsp,integration-test-browser,невизначено,невизначено,"помилка збірки або компіляції (TypeScript, бандлер), не твердження перевірки"
+17472157729,gitlab-org/gitlab-services/design.gitlab.com,ui:integration_tests: [cy:edge],невизначено,невизначено,поле failure_reason=no_updates_running; журнал не запитувався
+17472157731,gitlab-org/gitlab-services/design.gitlab.com,ui:integration_tests_vue3: [cy:edge],невизначено,невизначено,поле failure_reason=no_updates_running; журнал не запитувався
+15818676685,gitlab-org/gitlab-services/design.gitlab.com,lint_and_test,невизначено,невизначено,помилка збірки: cp не знайшов файл
+16630583368,gitlab-org/gitlab-services/design.gitlab.com,lint_and_test,невизначено,середовище,HTTP 504 під час завантаження ресурсу (curl 22)
+16700625704,gitlab-org/gitlab-services/design.gitlab.com,lint_and_test,невизначено,невизначено,"помилка ESLint (jest/prefer-to-have-length), не твердження перевірки"
+16836917949,gitlab-org/gitlab-services/design.gitlab.com,ui:build_test_storybook_vue3,невизначено,невизначено,помилка збірки: відсутній модуль tokens.cjs
+17601012049,gitlab-org/gitlab-vscode-extension,test-integration-web,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+15675443382,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+15709501498,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+15741306198,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+15803265912,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+15803265913,gitlab-org/gitlab-vscode-extension,test-e2e-chat,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+15893336094,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+15971784160,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+15997072561,gitlab-org/gitlab-vscode-extension,test-e2e-chat,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+16022490568,gitlab-org/gitlab-vscode-extension,test-e2e-chat,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+16157273375,gitlab-org/gitlab-vscode-extension,test-e2e-chat,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+16576149921,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+16635852921,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+17157183803,gitlab-org/gitlab-vscode-extension,test-e2e-chat,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+17412193336,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+17484472248,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+17594993584,gitlab-org/gitlab-vscode-extension,test-e2e-chat,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+17601012054,gitlab-org/gitlab-vscode-extension,test-e2e,невизначено,невизначено,"тайм-аут перевірки (Playwright / mocha, 60 с)"
+15889106726,gitlab-org/gitlab-vscode-extension,test-integration,невизначено,невизначено,помилка виконання процесу (execa) без опису причини
+15889106731,gitlab-org/gitlab-vscode-extension,test-browser-build,невизначено,невизначено,помилка виконання процесу (execa) без опису причини
+15971402642,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16005879138,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16064175413,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16097835333,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16116091831,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16143879347,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16154301442,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16434499254,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16524568443,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16549719461,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,CommandNotFoundException на Windows-виконавці
+16576149917,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16633537409,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16649922938,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16845228950,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16861843468,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16957993749,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+16959233962,gitlab-org/gitlab-vscode-extension,test-integration-web,невизначено,невизначено,npm ci: помилка використання команди
+16984383239,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17026656281,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17027950920,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17071736876,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17073671958,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17122226462,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17174079872,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17221079719,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17357099897,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17390610353,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17392296727,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17589509197,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)
+17594993579,gitlab-org/gitlab-vscode-extension,test-e2e-windows,невизначено,середовище,TypeError: TEXT_ENCODINGS.union is not a function у npm на Windows-виконавці (несумісна версія Node)

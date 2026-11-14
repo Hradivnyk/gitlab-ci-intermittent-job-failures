@@ -1,0 +1,16 @@
+{
+ "project": "gitlab-org/gitlab-web-ide",
+ "pipelines": 268,
+ "attempts": 1701,
+ "test_attempts": 230,
+ "test_failed": 17,
+ "failed_pairs": 17,
+ "repeated": 0,
+ "intermittent": 0,
+ "attempts_by_ref_kind": {
+  "результат злиття": 176,
+  "гілка": 27,
+  "черга злиття": 27
+ },
+ "logs": true
+}
